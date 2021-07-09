@@ -1,0 +1,90 @@
+/*--start of global styling--*/
+:root{
+    --text-red: #FF0000;
+    --white: #ffffff;
+}
+
+body {
+    color: black;
+}
+
+h1, h2, h3{
+    color: darkblue;
+}
+
+h6{
+    color: var(--text-red);
+}
+
+img{
+    width: 612px;
+    height: 471px;
+}
+
+button{
+    max-width: 200px;
+}
+
+.navbar{
+    display: inline;
+}
+
+/*--end of global styling--*/
+
+/*--start of header section styling--*/
+.header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+    color: darkblue;
+}
+
+.header .navbar ul li{
+    display: inline-flex;
+}
+/*--end of header section styling--*/
+
+/*--start of main section styling--*/
+.row{
+    padding: 2rem 0 2rem 0;
+}
+
+.contact-btn{
+    color: var(--text-red);
+    background-color: var(--white);
+}
+
+.card{
+    display: inline-block;
+}
+
+.card-img-top{
+    max-height: 50px;
+    max-width: 50px;
+}
+/*--end of main section styling--*/
+
+/*--start of footer section styling--*/
+.footer{
+    color: var(--white);
+    justify-content: center;
+    background-color: darkblue;
+    position: center;
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-flex;
+    text-decoration: none;
+    color: var(--white);
+    
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: var(--white);
+    margin-right: 20px;
+}
+
+.footer .social i{
+    color: var(--white);
+    margin-right: 30px;
+}
+/*--end of footer section styling--*/

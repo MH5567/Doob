@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doob</title>
+
+    <!--Bootstap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--font awsome icons CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--custom style sheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--start of header section-->
+  <header class="header">
+      <!--start of navigation bar-->
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Doob</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-inline-flex" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home.</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us.</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio.</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog.</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us.</a>
+            </li>
+          </ul>
+          <div class="ml-auto order-0">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-link align-content-sm-end">
+                <div class="dropdown">
+                  <button class="btn btn-white text-black dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    EN
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">FR</a></li>
+                    <li><a class="dropdown-item" href="#">SP</a></li>
+                    <li><a class="dropdown-item" href="#">GE</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-link">
+                <button class="btn contact-btn">Contact us <i class="fas fa-long-arrow-alt-right"></i></button>
+              </li>
+            </ul>
+        </div>
+          </div>
+          
+    </nav>
+        
+  </header>
+<!--end of header section-->
+
+<!--start of main section-->
+  <main class="main">
+    <div class="container">
+        <!--stat of first row-->
+        <div class="row d-flex">
+            <div class="col">
+                <h1>The Spirit of Digital Agency.</h1>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+                <button class="btn rounded-pill bg-danger text-white">More About us</button>
+                <button class="btn rounded-pill">Get in Touch.</button>
+            </div>
+            <div id="hero" class="col mt-3">
+                <img src="./assets/image-1.jpg" alt="hero">
+            </div>
+        </div>
+        <!--end of first row-->
+
+        <!--start of second row-->
+        <div class="row d-flex">
+            <div class="col col-sm-6">
+                <h2>Anything you need, we've got you covered</h2>
+            <button class="btn rounded-pill bg-danger text-white">Get in Touch</button>
+            </div>
+        <div class="col col-sm-7 col-md-3 my-3">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/noun_Button String Envelope_1561953.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Web & Graphic Design</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col col-sm-7 col-md-3 my-3">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/html icon.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Web & App Development</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        </div>
+        <!--end of second row-->
+
+        <!--start of third row-->
+        <div class="row d-flex">
+            <div class="col col">
+                <img src="./assets/workstation.png" alt="workstation image">
+            </div>
+            <div class="col">
+                <h6>OUR COMPANY</h6>
+                <h2>Some Fine Words About Us</h2>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.Vestibulum ac diam sit amet.</p>
+                <p>Quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+                <!--start of arrow icons-->
+                <span><i class="fas fa-long-arrow-alt-left text-secondary"></i></span>
+                <span><i class="fas fa-long-arrow-alt-right"></i></span>
+                <!--end of arrow icons-->
+            </div>
+        </div>
+        <!--end of third row-->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </main>
+<!--end of main section-->
+
+<!--start of footer section-->
+  <footer class="footer">
+    <h5>DOOB</h5>
+    <h3 class="text-danger">CREATIVITY ABOVE</h3>
+    <!--start of footer navigation-->
+    <ul class="m-auto">
+        <li>
+            <a href="#">Home.</a>
+        </li>
+        <li>
+            <a href="#">About us.</a>
+        </li>
+        <li>
+            <a href="#">Portfolio.</a>
+        </li>
+        <li>
+            <a href="#">Blog.</a>
+        </li>
+        <li>
+            <a href="#">Contact us.</a>
+        </li> 
+    </ul>
+    <br>
+    <!--end of footer navigation-->
+    <p>&copy;2019 - Doob, All Rights Reserved</p>
+    <!--start of social icons-->
+    <div class="social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fas fa-basketball-ball"></i></a>
+    </div>
+    <!--end of social icons-->
+  </footer>
+    <!--end of footer section-->
+</body>
+</html>
